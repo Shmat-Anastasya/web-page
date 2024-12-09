@@ -1,0 +1,768 @@
+@media (max-width: 1439px) {
+    .conteiner {
+        max-width: 90vw;
+    }
+    p {
+        font-size: 1.4vw; 
+    }
+    hr {
+        margin: 0.2vw 0 2vw;
+    }
+    .button {
+        padding: 2vw 4.5vw;
+    }
+    .menu {
+        margin-top: 5vw;
+    }
+    .main__left {
+        margin: 8vw 0 0 0;
+    }
+    .main__left p {
+        width: 40vw;
+        margin: 3vw 0 0 0; 
+    }
+    .main__left div .button {
+        margin: 5vw 0 0;
+    }
+    .main div img {
+        width: 40vw;
+        height: auto;
+    }
+    .cont {
+        margin-top: 3vw;;
+    }
+    .border {
+        img {
+            width: 30vw;
+            border-radius: 0 10px 10px;
+        }
+    }
+    .about__text {
+        width: 60vw;
+        height: auto;
+    }
+    .about-certificate {
+        margin: 3vw 0 0 0;
+        gap: 2vw;
+    }
+    .about div .about-certificate img {
+        display: block;
+        width: 10vw;
+        height: auto;
+    }
+    .portfolio-grid {
+        gap: 2vw;
+    }
+    .portfolio-grid-1 {
+        gap: 2vw;
+    }
+    .portfolio-grid-2 {
+        margin: 2vw 0 0;
+        gap: 2vw;
+    }
+    .portfolio-grid-3 {
+        gap: 2vw;
+    }
+    .portfolio-grid__1 {
+        border-radius: 0 1vw 1vw 0;
+        width: 30vw;
+        height: 37vw;
+    }
+    .portfolio-grid__2 {
+        border-radius: 0 1vw 0 0;
+        width: 30vw;
+    }
+    .portfolio-grid__3 {
+        border-radius:  0 0 0 1vw;
+        width: 58vw;
+    }
+    .portfolio-grid__4 {
+        border-radius: 1vw;
+        width: 28vw;
+    }
+    .portfolio-grid__5 {
+        border-radius: 1vw 1vw 0 0 ;
+        width: 28vw;
+    }
+    .portfolio-grid__6 {
+        border-radius: 1vw 0 0 0;
+        width: 28vw;
+    }
+    .service-item {
+        h3 {
+            font-size: 2.5vw;
+        }
+        img {
+            margin: 2.7vw 0 0;
+            width: 26vw;
+            height: auto;
+        }
+        .button {       
+            margin: 2.7vw 0 0;
+        }
+        }  
+    #slider-container {
+        row-gap: 1.736vw;
+    }
+    #frame {
+        width: 49.2vw;
+    }
+    .card{
+        margin: 0;
+    }
+    .card-text {
+        width:49vw;
+        height:25vw;
+        div{
+            p {
+                font-size: 1.2vw;
+            }
+            margin: 4vw 1vw 1vw 1vw;
+        padding: 0 0 0 26vw;
+        }
+    }
+    .card-image {
+        margin: -23vw 0 0 2vw;
+        height:25vw;
+        width:20vw;
+        img {
+            height:100%;
+            width:auto;
+            
+        }
+    }
+    .pagination-circle {
+        width: 1.7vw;
+        height: 1.7vw;
+    }
+    #bottom {
+        column-gap: 1vw;
+    }
+    .parallelogram {
+        background-image: none !important;
+        display: none !important; /*стиль будет применен, даже если есть другие конфликтующие стили*/
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 12vw;
+        margin-top: 0;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    h3 {
+        font-size: 2.5vw;
+    }
+    p {
+
+        font-size: 2vw; 
+    }
+    hr {
+        margin: 0.2vw 0 2vw;
+    }
+    .main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main__left {
+        margin: 8vw 0 0 0;
+    }
+    .main__left p {
+        width: 70vw;
+        margin: 3vw 0 0 0; 
+    }
+    .main__left div .button {
+        margin: 5vw 0 0;
+    }
+    .main div img {
+        display: none;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .border {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 60vw;
+            border-radius: 10px;
+        }
+    }    
+    .about__text {
+        width: 90vw;
+        height: auto;
+        margin: 4vw 0 0 0;
+    }
+    .networks {
+        display: none;
+    }
+    .about-certificate {
+        margin: 5vw 0 0 0;
+        gap: 2vw;
+    }
+    .about div .about-certificate img {
+        display: block;
+        width: 22vw;
+        height: auto;
+    }
+    .portfolio-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+    .portfolio-grid-1 {
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .portfolio-grid-2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 2vw 0 0;
+        gap: 2vw;
+    }
+    .portfolio-grid-3 {
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .portfolio-grid__1 {
+        border-radius: 0 0 1vw 1vw;
+        width: 40vw;
+        height: 45vw;
+    }
+    .portfolio-grid__2 {
+        border-radius: 1vw;
+        width: 40vw;
+        height: 45vw;
+    }
+    .portfolio-grid__3 {
+        border-radius: 1vw;
+        width: 80vw;
+        height: 35vw;
+    }
+    .portfolio-grid__4 {
+        border-radius: 1vw;
+        width: 40vw;
+    }
+    .portfolio-grid__5 {
+        border-radius: 1vw;
+        width: 40vw;
+    }
+    .portfolio-grid__6 {
+        display: none;
+    }
+    .service-item {
+        h3 {
+            font-size: 2.5vw;
+        }
+        img {
+            margin: 2.7vw 0 0;
+            width: 26vw;
+            height: auto;
+        }
+            .button {     
+                font-size: 1.4vw; 
+                padding: 1.5vw 2.7vw;   
+                margin: 2.7vw 0 0;
+            }
+    }
+    #slider-container {
+        row-gap: 1.736vw;
+    }
+    #frame {
+        width: 49.2vw;
+    }
+    .card{
+        margin: 0;
+    }
+    .card-text {
+        width:49vw;
+        height:25vw;
+        div{
+            p {
+                font-size: 1.2vw;
+            }
+            margin: 4vw 1vw 1vw 1vw;
+        padding: 0 0 0 26vw;
+        }
+    }
+    .card-image {
+        margin: -23vw 0 0 2vw;
+        height:25vw;
+        width:20vw;
+        img {
+            height:100%;
+            width:auto;
+            
+        }
+    }
+    #bottom {
+        column-gap: 1vw;
+    }
+    .contact {
+        gap:2vw;
+    }
+    .contact-form {
+        &__input {
+          width: 35vw;
+          height: 8vw;
+          font-size: 1.5vw;
+        }
+        button {
+            font-size: 1.5vw; 
+        }
+      } 
+    .contact-info {
+        margin-left: 0;
+        padding-top: 2vw;
+        gap: 3vw;
+        &__group {
+          gap: 1vw;
+        }
+     } 
+    .block {
+        gap: 2vw;
+        img {
+            width: 3vw;
+            height: auto;
+          margin-right: 0;
+
+        }
+      }
+    .footer {
+        .networks {
+            display: block;
+            width: 25vw;
+            .networks__info {
+                margin-top: 1vw;
+            }
+            p {
+                font-size: 1.5vw;
+            }
+        }
+        margin: 5vw 0 0;
+        padding: 0 5vw;   
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 11vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 3.5vw;
+    }
+    p {
+
+        font-size: 2.1vw; 
+    }
+    hr {
+        margin: 0.2vw 0 2vw;
+    }
+    .menu {
+        img {
+            width: 28vw;
+        }
+        align-items: flex-start;
+    }
+    .menu__nav {
+        ul {
+            display: none;
+        }
+        content: url('../IMG/main/header/burger.svg');
+        width: 7vw;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__left {
+        margin: 6vw 0 0 0;
+    }
+
+    .main__left p {
+        width: 80vw;
+        margin: 3vw 0 0 0; 
+    }
+
+    .main__left div .button {
+        margin: 2.5vw 0 0;
+    }
+    .main div img {
+        display: none;
+    }
+    .about {
+        flex-direction: column;
+        gap: 3vw;
+    }
+    .about div img {
+        display: block;
+        width: 60vw;
+    }    
+    .about__text {
+        width: 90vw;
+        height: auto;
+        margin: 0;
+    }
+    .networks {
+        display: none;
+    }
+    .about-certificate {
+        margin: 5vw 0 0 0;
+        gap: 2vw;
+    }
+    .about div .about-certificate img {
+        display: block;
+        width: 20vw;
+        height: auto;
+    }
+    .portfolio-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+    .portfolio-grid-1 {
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .portfolio-grid-2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 2vw 0 0;
+        gap: 2vw;
+    }
+    .portfolio-grid-3 {
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .portfolio-grid__1 {
+        border-radius: 0 0 1vw 1vw;
+        width: 40vw;
+        height: 45vw;
+    }
+    .portfolio-grid__2 {
+        border-radius: 1vw;
+        width: 40vw;
+        height: 45vw;
+    }
+    .portfolio-grid__3 {
+        border-radius: 1vw;
+        width: 80vw;
+        height: 35vw;
+    }
+    .portfolio-grid__4 {
+        border-radius: 1vw;
+        width: 40vw;
+    }
+    .portfolio-grid__5 {
+        border-radius: 1vw;
+        width: 40vw;
+    }
+    .portfolio-grid__6 {
+        display: none;
+    }
+    .services-grid {
+
+        column-gap: 0.5vw;
+    }
+    .service-item {
+        h3 {
+            font-size: 3.5vw;
+        }
+        img {
+            margin: 2.7vw 0 0;
+            width: 26vw;
+            height: auto;
+        }
+
+            .button {    
+                padding: 1vw 2.7vw;    
+                margin: 2.7vw 0 0;
+            }
+ 
+    }
+    #slider-container {
+        row-gap: 1.736vw;
+    }
+    #frame {
+        width: 49.3vw;
+    }
+    .card{
+        margin: 0;
+    }
+    .card-text {
+        width:49vw;
+        height:25vw;
+        div{
+            p {
+                font-size: 1.5vw;
+            }
+            margin: 4vw 1vw 1vw 1vw;
+        padding: 0 0 0 26vw;
+        }
+    }
+    .card-image {
+        margin: -23vw 0 0 2vw;
+        height:25vw;
+        width:20vw;
+        img {
+            height:100%;
+            width:auto;
+            
+        }
+    }
+    #bottom {
+        column-gap: 1vw;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-form {
+        padding: 0;
+        gap: 15px;
+      
+        &__input {
+          width: 65vw;
+          height: 8vw;
+          font-size: 2.4vw;
+          padding-left: 3vw;
+        }
+        button {
+            font-size: 2.4vw; 
+            padding: 2vw 4vw; 
+        }
+      } 
+    .contact-info {
+        margin-left: 0;
+        padding-top: 0;
+        gap: 13vw;
+        &__group {
+          gap: 2vw;
+        }
+     } 
+    .block {
+        gap: 2vw;
+        img {
+            width: 5vw;
+            height: auto;
+          margin-right: 0;
+
+        }
+      }
+    footer {
+        display: flex;
+        flex-direction: column;
+        .footer__text {
+            display: block;
+            margin: 0;
+            align-self: center;
+        }
+    }
+    .footer {
+        align-items: flex-start;
+        margin: 5vw 0 0;
+        padding: 0 5vw;
+        .left {
+            margin: 0;
+            .networks {
+                display: none;
+            }
+            img {
+                width: 28vw;
+            }
+        }
+        .right {
+            div, a, .button {
+                display: none;
+            }
+            content: url('../IMG/main/header/burger.svg');
+            width: 7vw;
+            margin: 0;
+        }
+        .footer__text {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 11vw;
+    }
+    h2 {
+        font-size: 5.2vw;
+    }
+    h3 {
+        font-size: 4.8vw;
+    }
+    p {
+        font-size: 2.4vw; 
+    }
+    hr {
+        margin: 0.2vw 0 2vw;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__left {
+        margin: 4vw 0 0 0;
+        align-items: center;
+        h1 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            margin: -9vw 0 0; 
+        }
+    }
+    .main__left p {
+        width: 90vw;
+        height: auto;
+        text-align: center;
+        margin: 3.7vw 0 0 0; 
+        
+    }
+    .main__left div .button {
+        margin: 4vw 0 0;
+        font-size: 2vw; 
+        padding: 1.2vw 4vw; 
+    }
+    .main div img {
+        display: none;
+    }
+    .about {
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .about div img {
+        display: block;
+        width: 50vw;
+    }    
+    .about__text {
+        width: 90vw;
+        height: auto;
+        margin: 4vw 0 0 0;
+    }
+    .networks {
+        display: none;
+    }
+    .about-certificate {
+        margin: 5vw 0 0 0;
+        gap: 3vw;
+    }
+    .about div .about-certificate img {
+        display: block;
+        width: 20vw;
+        height: auto;
+    }
+    .portfolio-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+    .portfolio-grid-1 {
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .portfolio-grid-2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 2vw 0 0;
+        gap: 2vw;
+    }
+    .portfolio-grid-3 {
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .portfolio-grid__1 {
+        border-radius: 0 0 1vw 1vw;
+        width: 37vw;
+        height: 45vw;
+    }
+    .portfolio-grid__2 {
+        border-radius: 1vw;
+        width: 37vw;
+        height: 45vw;
+    }
+    .portfolio-grid__3 {
+        border-radius: 1vw;
+        width: 76vw;
+        height: 35vw;
+    }
+    .portfolio-grid__4 {
+        border-radius: 1vw;
+        width: 37vw;
+    }
+    .portfolio-grid__5 {
+        border-radius: 1vw;
+        width: 37vw;
+    }
+    .portfolio-grid__6 {
+        display: none;
+    }
+    .services-grid {
+
+        column-gap: 0.5vw;
+    }
+    .service-item {
+        h3 {
+            font-size: 4vw;
+        }
+        img {
+            margin: 2.7vw 0 0;
+            width: 26vw;
+            height: auto;
+        }
+        .button {       
+                padding: 0.5vw 2.7vw; 
+                margin: 2.7vw 0 0;
+            }
+    }
+    #slider-container {
+        row-gap: 1.736vw;
+    }
+    #frame {
+        width: 49.3vw;
+    }
+    .card{
+        margin: 0;
+    }
+    .card-text {
+        width:49vw;
+        height:25vw;
+        div{
+            p {
+                font-size: 1.2vw;
+            }
+            margin: 4vw 1vw 1vw 1vw;
+        padding: 0 0 0 26vw;
+        }
+    }
+    .card-image {
+        margin: -23vw 0 0 2vw;
+        height:25vw;
+        width:20vw;
+        img {
+            height:100%;
+            width:auto;
+            
+        }
+    }
+    #bottom {
+        column-gap: 1vw;
+    }
+    .contact-info {
+        gap: 3vw;
+     }    
+    .portfolio-cont {
+        img {
+            width: 30vw;
+        }
+    } 
+}
