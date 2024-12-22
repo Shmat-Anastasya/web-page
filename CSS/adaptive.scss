@@ -363,6 +363,11 @@
     hr {
         margin: 0.2vw 0 2vw;
     }
+    .button {
+        &:hover {
+            display: none;
+        }
+    }
     .menu {
         img {
             width: 28vw;
@@ -424,6 +429,9 @@
         flex-direction: column;
         align-items: center;
         gap: 2vw;
+        &:hover {
+            display: none;
+        }
     }
     .gallery__group--1 {
         flex-direction: row;

@@ -351,6 +351,9 @@
   hr {
     margin: 0.2vw 0 2vw;
   }
+  .button:hover {
+    display: none;
+  }
   .menu {
     align-items: flex-start;
   }
@@ -410,6 +413,9 @@
     flex-direction: column;
     align-items: center;
     gap: 2vw;
+  }
+  .gallery:hover {
+    display: none;
   }
   .gallery__group--1 {
     flex-direction: row;
