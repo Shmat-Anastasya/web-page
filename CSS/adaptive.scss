@@ -50,41 +50,41 @@
         width: 10vw;
         height: auto;
     }
-    .portfolio-grid {
+    .gallery {
         gap: 2vw;
     }
-    .portfolio-grid-1 {
+    .gallery__group--1 {
         gap: 2vw;
     }
-    .portfolio-grid-2 {
+    .__subgroup {
         margin: 2vw 0 0;
         gap: 2vw;
     }
-    .portfolio-grid-3 {
+    .gallery__subgroup-item {
         gap: 2vw;
     }
-    .portfolio-grid__1 {
+    .gallery__image--makeup {
         border-radius: 0 1vw 1vw 0;
         width: 30vw;
         height: 37vw;
     }
-    .portfolio-grid__2 {
+    .gallery__image--manicure {
         border-radius: 0 1vw 0 0;
         width: 30vw;
     }
-    .portfolio-grid__3 {
+    .gallery__image--training {
         border-radius:  0 0 0 1vw;
         width: 58vw;
     }
-    .portfolio-grid__4 {
+    .gallery__image--brows {
         border-radius: 1vw;
         width: 28vw;
     }
-    .portfolio-grid__5 {
+    .gallery__image--eyelashe {
         border-radius: 1vw 1vw 0 0 ;
         width: 28vw;
     }
-    .portfolio-grid__6 {
+    .gallery__image--hairstyles {
         border-radius: 1vw 0 0 0;
         width: 28vw;
     }
@@ -207,49 +207,49 @@
         width: 22vw;
         height: auto;
     }
-    .portfolio-grid {
+    .gallery {
         flex-direction: column;
         align-items: center;
         gap: 2vw;
     }
-    .portfolio-grid-1 {
+    .gallery__group--1 {
         flex-direction: row;
         gap: 2vw;
     }
-    .portfolio-grid-2 {
+    .gallery__subgroup {
         flex-direction: column;
         align-items: center;
         margin: 2vw 0 0;
         gap: 2vw;
     }
-    .portfolio-grid-3 {
+    .gallery__subgroup-item {
         flex-direction: row;
         gap: 2vw;
     }
-    .portfolio-grid__1 {
+    .gallery__image--makeup {
         border-radius: 0 0 1vw 1vw;
         width: 40vw;
         height: 45vw;
     }
-    .portfolio-grid__2 {
+    .gallery__image--manicure {
         border-radius: 1vw;
         width: 40vw;
         height: 45vw;
     }
-    .portfolio-grid__3 {
+    .gallery__image--training {
         border-radius: 1vw;
         width: 80vw;
         height: 35vw;
     }
-    .portfolio-grid__4 {
+    .gallery__image--brows {
         border-radius: 1vw;
         width: 40vw;
     }
-    .portfolio-grid__5 {
+    .gallery__image--eyelashe {
         border-radius: 1vw;
         width: 40vw;
     }
-    .portfolio-grid__6 {
+    .gallery__image--hairstyles {
         display: none;
     }
     .service-item {
@@ -420,49 +420,49 @@
         width: 20vw;
         height: auto;
     }
-    .portfolio-grid {
+    .gallery {
         flex-direction: column;
         align-items: center;
         gap: 2vw;
     }
-    .portfolio-grid-1 {
+    .gallery__group--1 {
         flex-direction: row;
         gap: 2vw;
     }
-    .portfolio-grid-2 {
+    .gallery__subgroup {
         flex-direction: column;
         align-items: center;
         margin: 2vw 0 0;
         gap: 2vw;
     }
-    .portfolio-grid-3 {
+    .gallery__subgroup-item {
         flex-direction: row;
         gap: 2vw;
     }
-    .portfolio-grid__1 {
+    .gallery__image--makeup {
         border-radius: 0 0 1vw 1vw;
         width: 40vw;
         height: 45vw;
     }
-    .portfolio-grid__2 {
+    .gallery__image--manicure {
         border-radius: 1vw;
         width: 40vw;
         height: 45vw;
     }
-    .portfolio-grid__3 {
+    .gallery__image--training {
         border-radius: 1vw;
         width: 80vw;
         height: 35vw;
     }
-    .portfolio-grid__4 {
+    .gallery__image--brows {
         border-radius: 1vw;
         width: 40vw;
     }
-    .portfolio-grid__5 {
+    .gallery__image--eyelashe {
         border-radius: 1vw;
         width: 40vw;
     }
-    .portfolio-grid__6 {
+    .gallery__image--hairstyles {
         display: none;
     }
     .services-grid {
@@ -661,49 +661,49 @@
         width: 20vw;
         height: auto;
     }
-    .portfolio-grid {
+    .gallery {
         flex-direction: column;
         align-items: center;
         gap: 2vw;
     }
-    .portfolio-grid-1 {
+    .gallery__group--1 {
         flex-direction: row;
         gap: 2vw;
     }
-    .portfolio-grid-2 {
+    .gallery__subgroup {
         flex-direction: column;
         align-items: center;
         margin: 2vw 0 0;
         gap: 2vw;
     }
-    .portfolio-grid-3 {
+    .gallery__subgroup-item {
         flex-direction: row;
         gap: 2vw;
     }
-    .portfolio-grid__1 {
+    .gallery__image--makeup {
         border-radius: 0 0 1vw 1vw;
         width: 37vw;
         height: 45vw;
     }
-    .portfolio-grid__2 {
+    .gallery__image--manicure {
         border-radius: 1vw;
         width: 37vw;
         height: 45vw;
     }
-    .portfolio-grid__3 {
+    .gallery__image--training {
         border-radius: 1vw;
         width: 76vw;
         height: 35vw;
     }
-    .portfolio-grid__4 {
+    .gallery__image--brows {
         border-radius: 1vw;
         width: 37vw;
     }
-    .portfolio-grid__5 {
+    .gallery__image--eyelashe {
         border-radius: 1vw;
         width: 37vw;
     }
-    .portfolio-grid__6 {
+    .gallery__image--hairstyles {
         display: none;
     }
     .services-grid {

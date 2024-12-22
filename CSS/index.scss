@@ -151,13 +151,11 @@ ul {
 .border img {
     border-radius: 0 10px 10px 0;
 }
-.about__text {   
-
-width: 705px;
-height: 360px;
-
+.about__text {  
+    width: 705px;
+    height: 360px;
 }
-.networks{
+.networks {
     display: flex;
     flex-direction: column;
     gap: 13px;
@@ -196,67 +194,49 @@ height: 360px;
         }
     }
 }
-.portfolio-grid {
+.gallery {
     display: flex;
     gap: 16px;
     img {
-        transition: transform 0.5s ease, box-shadow 0.5s ease; /* Увеличено время анимации */
-    &:hover {
-        transform: scale(1.1); /* Увеличение изображения */
-        box-shadow: 0 0.278vw 1.389vw rgba(0, 0, 0, 0.8); /* Тень при наведении */
+        transition: transform 0.5s ease, box-shadow 0.5s ease; /* Увеличено время анимации */      
+        &:hover {
+            transform: scale(1.1); /* Увеличение изображения */
+            box-shadow: 0 0.278vw 1.389vw rgba(0, 0, 0, 0.8); /* Тень при наведении */
+        }
     }
+    &__group--1, &__subgroup-item {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
-}
-.portfolio-grid-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-.portfolio-grid-2 {
-    display: flex;
-    margin: 16px 0 0;
-    gap: 16px;
-}
-.portfolio-grid-3 {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-.portfolio-grid__1 {
-    border-radius: 0 0 10px 0;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.portfolio-grid__2 {
-    border-radius: 0 10px 0 0;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.portfolio-grid__3 {
-    border-radius: 0 0 0 10px;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.portfolio-grid__4 {
-    border-radius: 10px;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.portfolio-grid__5 {
-    border-radius: 10px 10px 0 0;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.portfolio-grid__6 {
-    border-radius: 10px 0 0 0;
-    display: block;
-    padding: 0;
-    margin: 0;
+    &__subgroup {
+        display: flex;
+        margin: 16px 0 0;
+        gap: 16px;
+    }
+    &__image--makeup, &__image--manicure, &__image--training, &__image--brows, &__image--eyelashe, &__image--hairstyles {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    &__image--makeup {
+        border-radius: 0 0 10px 0;
+    }
+    &__image--manicure {
+        border-radius: 0 10px 0 0;
+    }
+    &__image--training {
+        border-radius: 0 0 0 10px;
+    }
+    &__image--brows {
+        border-radius: 10px;
+    }
+    &__image--eyelashe {
+        border-radius: 10px 10px 0 0;
+    }
+    &__image--hairstyles {
+        border-radius: 10px 0 0 0;
+    }
 }
 .services-grid {
     display: grid;
@@ -303,27 +283,27 @@ height: 360px;
     flex-direction:column;
     width: 776px;
     margin: 0 0 60px 0;
-}
-.card-text {
-    border: 1px solid #301100;
-    width:776px;
-    height:402px;
-    img{
-        width:100%;
-        height:100%;
-        object-fit:cover;
-        object-position:bottom;
-        display: block;
+    &-text {
+        border: 1px solid #301100;
+        width:776px;
+        height:402px;
+        img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            object-position:bottom;
+            display: block;
+        }
+        div{
+            margin: 73px 15px 303px 439px;
+        }
     }
-    div{
-        margin: 73px 15px 303px 439px;
+    &-image {
+        margin:-369px 35px;
+        margin-bottom:-50px;
+        height:405px;
+        width:389px;
     }
-}
-.card-image {
-    margin:-369px 35px;
-    margin-bottom:-50px;
-    height:405px;
-    width:389px;
 }
 .pagination-circle {
     width: 16px;
@@ -341,43 +321,43 @@ height: 360px;
 .contact {
     display: flex;
     justify-content: start;
+    &-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        gap: 15px;
+      
+        &__input {
+          box-sizing: border-box;
+          width: 390px;
+          height: 64px;
+          border: 1px solid #301100;
+          border-radius: 10px;
+          color: #301100;
+          padding-left: 18px;
+          background: #FFF6F1;
+      
+          &::placeholder {
+            color: #301100;
+          }
+        }
+    } 
+    &-info {
+        display: flex;
+        margin-left: 133px;
+        padding-top: 64px;
+        gap: 24px;
+        &__group {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+        a {
+          color: #AA775E;
+        }
+     } 
 }
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    gap: 15px;
-  
-    &__input {
-      box-sizing: border-box;
-      width: 390px;
-      height: 64px;
-      border: 1px solid #301100;
-      border-radius: 10px;
-      color: #301100;
-      padding-left: 18px;
-      background: #FFF6F1;
-  
-      &::placeholder {
-        color: #301100;
-      }
-    }
-  } 
-.contact-info {
-    display: flex;
-    margin-left: 133px;
-    padding-top: 64px;
-    gap: 24px;
-    &__group {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-    a {
-      color: #AA775E;
-    }
- } 
 .block {
     display: flex;
     align-items: center;

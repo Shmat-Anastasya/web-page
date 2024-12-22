@@ -200,76 +200,49 @@ ul li a:hover {
   padding: 0;
 }
 
-.portfolio-grid {
+.gallery {
   display: flex;
   gap: 16px;
 }
-.portfolio-grid img {
+.gallery img {
   transition: transform 0.5s ease, box-shadow 0.5s ease; /* Увеличено время анимации */
 }
-.portfolio-grid img:hover {
+.gallery img:hover {
   transform: scale(1.1); /* Увеличение изображения */
   box-shadow: 0 0.278vw 1.389vw rgba(0, 0, 0, 0.8); /* Тень при наведении */
 }
-
-.portfolio-grid-1 {
+.gallery__group--1, .gallery__subgroup-item {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-
-.portfolio-grid-2 {
+.gallery__subgroup {
   display: flex;
   margin: 16px 0 0;
   gap: 16px;
 }
-
-.portfolio-grid-3 {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.gallery__image--makeup, .gallery__image--manicure, .gallery__image--training, .gallery__image--brows, .gallery__image--eyelashe, .gallery__image--hairstyles {
+  display: block;
+  padding: 0;
+  margin: 0;
 }
-
-.portfolio-grid__1 {
+.gallery__image--makeup {
   border-radius: 0 0 10px 0;
-  display: block;
-  padding: 0;
-  margin: 0;
 }
-
-.portfolio-grid__2 {
+.gallery__image--manicure {
   border-radius: 0 10px 0 0;
-  display: block;
-  padding: 0;
-  margin: 0;
 }
-
-.portfolio-grid__3 {
+.gallery__image--training {
   border-radius: 0 0 0 10px;
-  display: block;
-  padding: 0;
-  margin: 0;
 }
-
-.portfolio-grid__4 {
+.gallery__image--brows {
   border-radius: 10px;
-  display: block;
-  padding: 0;
-  margin: 0;
 }
-
-.portfolio-grid__5 {
+.gallery__image--eyelashe {
   border-radius: 10px 10px 0 0;
-  display: block;
-  padding: 0;
-  margin: 0;
 }
-
-.portfolio-grid__6 {
+.gallery__image--hairstyles {
   border-radius: 10px 0 0 0;
-  display: block;
-  padding: 0;
-  margin: 0;
 }
 
 .services-grid {
@@ -323,7 +296,6 @@ ul li a:hover {
   width: 776px;
   margin: 0 0 60px 0;
 }
-
 .card-text {
   border: 1px solid #301100;
   width: 776px;
@@ -341,7 +313,6 @@ ul li a:hover {
 .card-text div {
   margin: 73px 15px 303px 439px;
 }
-
 .card-image {
   margin: -369px 35px;
   margin-bottom: -50px;
@@ -370,7 +341,6 @@ ul li a:hover {
   display: flex;
   justify-content: start;
 }
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -394,7 +364,6 @@ ul li a:hover {
 .contact-form__input::placeholder {
   color: #301100;
 }
-
 .contact-info {
   display: flex;
   margin-left: 133px;
